@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <h2>Menú</h2>
+        <ul>
+            <li><a onclick="showSection('menu')">Acerca De Nosotros</a></li>
+            <li><a onclick="showSection('repartidores')">Repartidores</a></li>
+            <li><a onclick="showSection('pedidos')">Pedidos</a></li>
+            <li><a onclick="showSection('historial')">Historial de Órdenes</a></li>
+            <li><a onclick="showSection('inventario')">Inventario</a></li>
+            <li><a onclick="showSection('proveedores')">Proveedores</a></li>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
+            <footer>@Real_Market UNICAH 2024</footer>
+        </ul>
+    </aside>
+
+    <main>
+        <section id="menu" class="active">
+            <h2>Real_Market 2024</h2>
+            <img src="imagenes\modulo_Home.jpg"  class="section-image">
+            <p>Real_Market es un programa software diseñado para optimizar la gestión de supermercados, orientada tanto a 
+                administradores como a empleados. El sistema proporciona herramientas robustas y fáciles de usar para controlar 
+                eficientemente las operaciones esenciales del negocio.</p>
+        </section>
+        <section id="repartidores">
+            <h2>Repartidores</h2>
+            <img src="imagenes\modulo_Repartidor.jpg"  class="section-image">
+            <ul>
+                <li><strong>Ingresar a Repartidores.</strong> Haz clic en el botón "Repartidor" en la parte izquierda.</li>
+                <li><strong>Agregar Repartidor.</strong> Completa los campos requeridos (nombre, apellido, teléfono, y tipo de vehículo) y haz clic en "Guardar".</li>
+                <li><strong>Editar Repartidor.</strong> Haz clic en la tabla sobre el repartidor que deseas editar. Realiza las modificaciones necesarias y haz clic en el botón "Editar".</li>
+                <li><strong>Eliminar Repartidor.</strong> Haz clic en la tabla sobre el repartidor que deseas eliminar. Luego haz clic en el botón "Eliminar".</li>
+                <li><strong>Limpiar Campos.</strong> Haz clic en el botón "Limpiar" para dejar en blanco todos los campos.</li>
+            </ul>
+        </section>
+
+        <section id="pedidos">
+            <h2>Pedidos</h2>
+            <img src="imagenes\modulo_Pedidos.jpg"  class="section-image">
+
+            <ul>
+                <li><strong>Información. </strong>Dentro del menú podrás gestionar los pedidos que son aceptados y editarlos. Los campos de Número de Pedido, Usuario, Tipo de Pago
+                    Fecha del Pedido y Dirección de Entrega no son editables. A través de esta pantalla puedes asignar un nuevo repartidor y cambiar el estado del pedido.</li>
+                <li><strong>Ingresar a Pedidos.</strong> Haz click en el botón "Pedidos" en la parte izquierda.</li>
+                <li><strong>Aceptar Pedido.</strong> Haz click en "Aceptar Pedido" para aprobar un nuevo pedido.</li>
+                <li><strong>Editar Pedido.</strong> Selecciona un pedido y haz click en "Editar" para modificarlo.</li>
+            </ul>
+        </section>
+
+        <section id="historial">
+            <h2>Historial de Órdenes</h2>
+            <img src="imagenes\modulo_Historial.jpg"  class="section-image">
+            <ul>
+                <li><strong>Información.</strong>Dentro de esta pantalla aparecerán todas las ordenes que se han hecho. Se podrán buscar escibriendo el nombre dentro de la caja de texto y presionando en el botón de buscar.</li>
+                <li><strong>Ingresar a Historias de Órdenes.</strong>Haz click en el botón de Historial de Ordenes a la izquierda.</li>
+                <li><strong>Filtrar Órdenes.</strong> Usa la caja de texto para buscar el pedido deseado.</li>
+            </ul>
+        </section>
+
+        <section id="inventario">
+            <h2>Inventario</h2>
+            <img src="imagenes\modulo_Inventario.jpg"  class="section-image">
+            <ul>
+                <li><strong>Información.</strong> Desde esta pantalla podrás gestionar los productos del inventario de Real_Market.</li>
+                <li><strong>Agregar Producto.</strong> Al presionar "Agregar" se habilitará la opción para que ingreses el número de factura de compra y presiones "Guardar Cambios".
+                     Al ser nueva entonces el sistema mostrará una nueva pantalla para que llenes todos los demás datos (Código del producot, 
+                     Nombre del producto, Nombre de la categoría, Nombre del proveedor, Precio del producto, Cantidad del producto y una Descripción). Es importante saber que es necesario agregarle
+                    una imagen al nuevo producto. Guarda tus cambios y valida que se haya agregado.</li>
+                <li><strong>Editar Producto.</strong> Selecciona un producto, haz los cambios en las caja de texto como Precio
+                    del producto y Cantidad del Producot y haz clic en "Editar". </li>
+            </ul>
+        </section>
+
+        <section id="proveedores">
+            <h2>Proveedores</h2>
+            <img src="imagenes\modulo_Proveedores.jpg"  class="section-image">
+            <ul>
+                <li><strong>Ingresar a Proveedores.</strong> Haz clic en el botón "Proveedores" en la parte izquierda.</li>
+                <li><strong>Agregar Proveedor.</strong> Completa los campos requeridos (nombre y dirección) y haz clic en "Guardar".</li>
+                <li><strong>Editar Proveedor.</strong> Haz clic en la tabla sobre el proveedor que deseas editar. Realiza las modificaciones necesarias y haz clic en el botón "Editar".</li>
+                <li><strong>Eliminar Proveedor.</strong> Haz clic en la tabla sobre el proveedor que deseas eliminar. Luego haz clic en el botón "Eliminar".</li>
+                <li><strong>Limpiar Campos.</strong> Haz clic en el botón "Limpiar" para dejar en blanco todos los campos.</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        function showSection(sectionId) 
+        {
+            document.querySelectorAll('section').forEach(section => {section.classList.remove('active');});
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
